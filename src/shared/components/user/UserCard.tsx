@@ -31,14 +31,14 @@ export const UserCard = observer(({ user }: { user: IUser }) => {
 				</Flex>
 			</CardHeader>
 			<CardBody>
-				<Heading fontSize={17}>Contacts</Heading>
+				<Heading size="sm">Contacts</Heading>
 
 				<Text>{user.website}</Text>
 				<Text>{user.email}</Text>
 				<Text>{user.phone}</Text>
 			</CardBody>
 			<CardBody>
-				<Heading fontSize={17}>Company</Heading>
+				<Heading size="sm">Company</Heading>
 				<Text>{user.company.name}</Text>
 				<Text>{user.company.catchPhrase}</Text>
 				<Text>{user.company.bs}</Text>
