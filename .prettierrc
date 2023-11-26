@@ -1,0 +1,27 @@
+{
+  "printWidth": 90,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "tabWidth": 2,
+  "semi": false,
+  "useTabs": true,
+  "arrowParens": "always",
+  "endOfLine": "auto",
+  "importOrder": [
+    "^next/(.*)$",
+    "^services/(.*)$",
+    "^widgets/(.*)$",
+    "^feature/(.*)$",
+    "^entities/(.*)$",
+    "^shared/(.*)$",
+    "^.ui/(.*)$",
+    "^./(.*)$",
+    "^assets/images/(.*)$",
+    "^assets/style/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
